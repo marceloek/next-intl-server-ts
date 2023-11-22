@@ -1,0 +1,58 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "standard",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:promise/recommended"
+  ],
+  "plugins": ["eslint-plugin-import-helpers"],
+  "rules": {
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": ["interface", "typeLike"],
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^I[A-Z]",
+          "match": true
+        }
+      }
+    ],
+    
+    "import-helpers/order-imports": [
+      "error",
+      {
+        "newlinesBetween": "always",
+        "groups": [
+          ["module", "/(?=^@)(?!^@/)/"],
+          "/next/",
+          "/^@//",
+          ["parent", "sibling", "index"],
+          ["/css/"]
+        ],
+        "alphabetize": { "order": "asc", "ignoreCase": true }
+      }
+    ],
+
+    "prefer-destructuring": "error",
+    "prefer-template": "error",
+
+    "prettier/prettier": [
+      "error",
+      {
+        "plugins": ["prettier-plugin-tailwindcss"],
+        "printWidth": 80,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "arrowParens": "avoid",
+        "semi": false,
+        "endOfLine": "lf"
+      }
+    ],
+
+    "react/no-unknown-property": "error",
+    "react/self-closing-comp": "error"
+  }
+}

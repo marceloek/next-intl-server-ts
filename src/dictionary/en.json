@@ -1,0 +1,52 @@
+{
+  "header": {
+    "nav": {
+      "title": "Change page",
+      "home": "Home",
+      "about": "About",
+      "signin": "Sign In",
+      "table": "Table"
+    },
+    "session_time": {
+      "title": "Session time"
+    },
+    "search": {
+      "title": "Search"
+    },
+    "locale_switcher": {
+      "title": "Change locale"
+    }
+  },
+
+  "home": {
+    "title": "Welcome!"
+  },
+
+  "about": {
+    "title": "About"
+  },
+
+  "signin": {
+    "email": {
+      "label": "Email"
+    },
+    "password": {
+      "label": "Password"
+    },
+    "remember": {
+      "label": "Remember me"
+    },
+    "forgot_password": "Forgot password"
+  },
+
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "job": "Job",
+    "favColor": "Favorite Color"
+  },
+
+  "footer": {
+    "copyright": "Copyright © {date} - All right reserved by Me"
+  }
+}

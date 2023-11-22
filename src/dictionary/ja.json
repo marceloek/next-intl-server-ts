@@ -1,0 +1,52 @@
+{
+  "header": {
+    "nav": {
+      "title": "Change page",
+      "home": "始める",
+      "about": "について",
+      "signin": "サインイン",
+      "table": "テーブル"
+    },
+    "session_time": {
+      "title": "Tempo da sessão"
+    },
+    "search": {
+      "title": "Pesquisar"
+    },
+    "locale_switcher": {
+      "title": "Mudar de idioma"
+    }
+  },
+
+  "home": {
+    "title": "いらっしゃいませ!"
+  },
+
+  "about": {
+    "title": "について"
+  },
+
+  "signin": {
+    "email": {
+      "label": "Eメール"
+    },
+    "password": {
+      "label": "パスワード"
+    },
+    "remember": {
+      "label": "私を覚えてますか"
+    },
+    "forgot_password": "パスワードを忘れてしまいました"
+  },
+
+  "table": {
+    "id": "ID",
+    "name": "名前",
+    "job": "仕事",
+    "favColor": "好きな色"
+  },
+
+  "footer": {
+    "copyright": "Copyright © {date} - All right reserved by Me"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "header": {
+    "nav": {
+      "title": "Change page",
+      "home": "Comenzar",
+      "about": "Acerca de",
+      "signin": "Iniciar Sesión",
+      "table": "Tabla"
+    },
+    "session_time": {
+      "title": "Tempo da sessão"
+    },
+    "search": {
+      "title": "Pesquisar"
+    },
+    "locale_switcher": {
+      "title": "Mudar de idioma"
+    }
+  },
+
+  "home": {
+    "title": "¡Bienvenido!"
+  },
+
+  "about": {
+    "title": "Acerca de"
+  },
+
+  "signin": {
+    "email": {
+      "label": "Email"
+    },
+    "password": {
+      "label": "Contraseña"
+    },
+    "remember": {
+      "label": "Acuérdate de mí"
+    },
+    "forgot_password": "Olvidé la contraseña"
+  },
+
+  "table": {
+    "id": "ID",
+    "name": "Nombre",
+    "job": "Trabajo",
+    "favColor": "Color Favorito"
+  },
+
+  "footer": {
+    "copyright": "Copyright © {date} - All right reserved by Me"
+  }
+}

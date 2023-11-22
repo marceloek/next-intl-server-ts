@@ -1,0 +1,52 @@
+{
+  "header": {
+    "nav": {
+      "title": "Mudar de página",
+      "home": "Início",
+      "about": "Sobre",
+      "signin": "Logar",
+      "table": "Tabela"
+    },
+    "session_time": {
+      "title": "Tempo da sessão"
+    },
+    "search": {
+      "title": "Pesquisar"
+    },
+    "locale_switcher": {
+      "title": "Mudar de idioma"
+    }
+  },
+
+  "home": {
+    "title": "Bem vindo!"
+  },
+
+  "about": {
+    "title": "Sobre"
+  },
+
+  "signin": {
+    "email": {
+      "label": "E-mail"
+    },
+    "password": {
+      "label": "Senha"
+    },
+    "remember": {
+      "label": "Lembrar-se"
+    },
+    "forgot_password": "Esqueci a senha"
+  },
+
+  "table": {
+    "id": "ID",
+    "name": "Nome",
+    "job": "Trabalho",
+    "favColor": "Cor Favorita"
+  },
+
+  "footer": {
+    "copyright": "Copyright © {date} - Todos os direitos reservados por Mim"
+  }
+}
