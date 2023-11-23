@@ -1,5 +1,5 @@
 {
-  "name": "next-intl-ts",
+  "name": "next-intl-server-ts",
   "version": "1.0.0",
   "private": true,
   "description": "Next.js application with internationalization on the server components side, built with Tailwind CSS and TypeScript",
