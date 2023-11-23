@@ -2,7 +2,7 @@ import { ComponentPropsWithoutRef } from 'react'
 
 import { useTranslations } from 'next-intl'
 
-import { inputChooser } from '@/util/inputChooser'
+import { inputChooser } from '@/utils/inputChooser'
 
 export interface IItemForwardProps {
   name: string

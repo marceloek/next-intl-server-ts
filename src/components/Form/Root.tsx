@@ -3,7 +3,7 @@
 import { ComponentPropsWithoutRef } from 'react'
 import { twMerge } from 'tailwind-merge'
 
-import { IGap, createGap } from '@/util/createGap'
+import { IGap, createGap } from '@/utils/createGap'
 
 interface IGenericFormProps extends ComponentPropsWithoutRef<'form'> {
   title?: string

@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef } from 'react'
 import { twMerge } from 'tailwind-merge'
 
-import { IGap, createGap } from '@/util/createGap'
+import { IGap, createGap } from '@/utils/createGap'
 
 import { Col } from './Col'
 

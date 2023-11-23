@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useParams, usePathname } from 'next/navigation'
 
 import { locales, localesFull } from '@/lib/locales'
-import { replacePage } from '@/util/parsePathname'
+import { replacePage } from '@/utils/parsePathname'
 
 export function LocaleSwitcherMenu() {
   const { locale } = useParams<{ locale: string }>()
